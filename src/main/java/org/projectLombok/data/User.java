@@ -1,9 +1,11 @@
 package org.projectLombok.data;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.util.Date;
 
+@ToString
 public @Data
 class User {
 
